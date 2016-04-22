@@ -1,0 +1,169 @@
+.warp{
+	width: 640px;
+	overflow: hidden;
+}
+.head{
+	width:640px;
+	height: 88px;
+	background-color: #292424;
+	overflow: hidden;
+}
+.head .shou-daoh{
+	width:42px;
+	height:25px;
+	float: left;
+	background: url('../images/daoh.png') 0 0 no-repeat;
+	margin: 30px 0px 0px 20px;
+}
+.head .shou-gerzx{
+	width: 35px;
+	height:35px;
+	float: right;
+	background: url('../images/grzx.png') 0 0 no-repeat;
+	margin: 30px 20px 0px 0px;
+}
+.head p{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    line-height: 88px;
+    float: left;
+    width: 520px;
+}
+.shou1-dl{
+	width: 640px;
+	height: 332px;
+	position: relative;
+}
+.shou1-inner{
+	width: 640px;
+	height: 332px;
+	overflow: hidden;
+}
+.shou1-guncon{
+	width: 5000px;
+	height: 332px;
+	overflow: hidden;
+}
+.shou1-guncon img{
+	width: 640px;
+	height: 332px;
+	float: left;
+}
+.shou1-gunnum{
+	overflow: hidden;
+	position: absolute;
+	left: 45%;
+	bottom: 15px;
+}
+.shou1-gunnum li{
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background: #fff;
+}
+.shou1-gunnum .shou1-select{
+	background: #E83E49;
+}
+.shou1-con{
+	overflow: hidden;
+	width: 640px;
+	margin: 20px auto;
+}
+.shou1-con p:nth-child(1),.shou1-con p:nth-child(2){
+	width: 300px;
+	height: 223px;
+	float: left;
+	margin-right: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.shou1-con p:nth-child(1){
+	background: #00CABE;
+	margin-left: 15px;
+}
+.shou1-con p:nth-child(2){
+	background: #E89E1B;
+}
+.shou1-con p:nth-child(1) span{
+	float: left;
+	height: 44px;
+	background: url('../images/zhutu1.png') 0 0 no-repeat;
+	padding-top: 60px;
+	position: absolute;
+    left: 43%;
+    top: 28%;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.shou1-con p:nth-child(2) span{
+	float: left;
+	height: 44px;
+	background: url('../images/zhutu2.png') 0 0 no-repeat;
+	padding-top: 60px;
+	position: absolute;
+    left: 43%;
+    top: 28%;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.shou1-con p:nth-child(3),.shou1-con p:nth-child(4){
+	width: 300px;
+	height:108px;
+	float: left;
+	margin-right: 10px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 20px;
+}
+.shou1-con p:nth-child(3){
+	background:#51DB61;
+	margin-left: 15px;
+}
+.shou1-con p:nth-child(4){
+	background:#3F95EA;
+}
+.shou1-con p:nth-child(3) span{
+	float: left;
+	height: 44px;
+	background: url('../images/zhutu3.png') 0 0 no-repeat;
+	padding-left: 56px;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.shou1-con p:nth-child(4) span{
+	float: left;
+	height: 44px;
+	background: url('../images/zhutu4.png') 0 0 no-repeat;
+	padding-left: 56px;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.shou1-dt{
+	overflow: hidden;
+	margin-top: 30px;
+}
+.shou1-dt h3{
+	height: 30px;
+	color: #BBBBBB;
+	font-size: 24px;
+	background: url('../images/dt.png') 0 0 no-repeat;
+	padding-left: 35px;
+    margin-left: 20px;
+}
